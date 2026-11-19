@@ -46,7 +46,7 @@ DROP TABLE IF EXISTS `emotion`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `emotion` (
   `emotion_id` int NOT NULL AUTO_INCREMENT,
-  `emotion` text COLLATE utf8mb4_general_ci NOT NULL,
+  `emotion` tinytext COLLATE utf8mb4_general_ci NOT NULL,
   `color_code` tinytext COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`emotion_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
